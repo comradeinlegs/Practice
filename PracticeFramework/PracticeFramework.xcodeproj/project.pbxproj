@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		660A8F9725D0E459003DD522 /* Practice.h in Headers */ = {isa = PBXBuildFile; fileRef = 660A8F9525D0E459003DD522 /* Practice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		660A8F9725D0E459003DD522 /* PracticeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 660A8F9525D0E459003DD522 /* PracticeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		660A8F9225D0E459003DD522 /* Practice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Practice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		660A8F9525D0E459003DD522 /* Practice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Practice.h; sourceTree = "<group>"; };
+		660A8F9225D0E459003DD522 /* PracticeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PracticeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		660A8F9525D0E459003DD522 /* PracticeFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PracticeFramework.h; sourceTree = "<group>"; };
 		660A8F9625D0E459003DD522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -30,7 +30,7 @@
 		660A8F8825D0E458003DD522 = {
 			isa = PBXGroup;
 			children = (
-				660A8F9425D0E459003DD522 /* Practice */,
+				660A8F9425D0E459003DD522 /* PracticeFramework */,
 				660A8F9325D0E459003DD522 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,18 +38,18 @@
 		660A8F9325D0E459003DD522 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				660A8F9225D0E459003DD522 /* Practice.framework */,
+				660A8F9225D0E459003DD522 /* PracticeFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		660A8F9425D0E459003DD522 /* Practice */ = {
+		660A8F9425D0E459003DD522 /* PracticeFramework */ = {
 			isa = PBXGroup;
 			children = (
-				660A8F9525D0E459003DD522 /* Practice.h */,
+				660A8F9525D0E459003DD522 /* PracticeFramework.h */,
 				660A8F9625D0E459003DD522 /* Info.plist */,
 			);
-			path = Practice;
+			path = PracticeFramework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,16 +59,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				660A8F9725D0E459003DD522 /* Practice.h in Headers */,
+				660A8F9725D0E459003DD522 /* PracticeFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		660A8F9125D0E459003DD522 /* Practice */ = {
+		660A8F9125D0E459003DD522 /* PracticeFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 660A8F9A25D0E459003DD522 /* Build configuration list for PBXNativeTarget "Practice" */;
+			buildConfigurationList = 660A8F9A25D0E459003DD522 /* Build configuration list for PBXNativeTarget "PracticeFramework" */;
 			buildPhases = (
 				660A8F8D25D0E459003DD522 /* Headers */,
 				660A8F8E25D0E459003DD522 /* Sources */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = Practice;
-			productName = Practice;
-			productReference = 660A8F9225D0E459003DD522 /* Practice.framework */;
+			name = PracticeFramework;
+			productName = PracticeFramework;
+			productReference = 660A8F9225D0E459003DD522 /* PracticeFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 660A8F8C25D0E458003DD522 /* Build configuration list for PBXProject "Practice" */;
+			buildConfigurationList = 660A8F8C25D0E458003DD522 /* Build configuration list for PBXProject "PracticeFramework" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				660A8F9125D0E459003DD522 /* Practice */,
+				660A8F9125D0E459003DD522 /* PracticeFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -262,14 +262,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Practice/Info.plist;
+				INFOPLIST_FILE = PracticeFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.meelive.ingkee.Practice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meelive.ingkee.PracticeFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -284,14 +284,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Practice/Info.plist;
+				INFOPLIST_FILE = PracticeFramework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.meelive.ingkee.Practice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meelive.ingkee.PracticeFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,7 +301,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		660A8F8C25D0E458003DD522 /* Build configuration list for PBXProject "Practice" */ = {
+		660A8F8C25D0E458003DD522 /* Build configuration list for PBXProject "PracticeFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				660A8F9825D0E459003DD522 /* Debug */,
@@ -310,7 +310,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		660A8F9A25D0E459003DD522 /* Build configuration list for PBXNativeTarget "Practice" */ = {
+		660A8F9A25D0E459003DD522 /* Build configuration list for PBXNativeTarget "PracticeFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				660A8F9B25D0E459003DD522 /* Debug */,
